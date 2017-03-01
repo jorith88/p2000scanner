@@ -1,1 +1,1 @@
-rtl_fm -M fm -f 169.650M -E dc -s 24000 -g 10 | ./rtlfm-to-scanner | ./scanner_stdin
+sh -c 'exec rtl_fm -M fm -f 169.650M | ./rtlfm-to-scanner | ./scanner_stdin'
